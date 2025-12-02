@@ -6,15 +6,15 @@ GitHub Gist: [Miuzarte's gists](https://gist.github.com/Miuzarte)
 
 ### Recent major projects:
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=EHentai-go)](https://github.com/Miuzarte/EHentai-go)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=NHentai-go)](https://github.com/Miuzarte/NHentai-go)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=JMComic-go)](https://github.com/Miuzarte/JMComic-go)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=PicaComic-go)](https://github.com/Miuzarte/PicaComic-go)
+[![Miuzarte/EHentai-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=EHentai-go)](https://github.com/Miuzarte/EHentai-go)
+[![Miuzarte/NHentai-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=NHentai-go)](https://github.com/Miuzarte/NHentai-go)
+[![Miuzarte/JMComic-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=JMComic-go)](https://github.com/Miuzarte/JMComic-go)
+[![Miuzarte/PicaComic-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=PicaComic-go)](https://github.com/Miuzarte/PicaComic-go)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=SauceNAO-go)](https://github.com/Miuzarte/SauceNAO-go)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=Ascii2d-go)](https://github.com/Miuzarte/Ascii2d-go)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=SoutuBot-go)](https://github.com/Miuzarte/SoutuBot-go)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=FlareSolverr-go)](https://github.com/Miuzarte/FlareSolverr-go)
+[![Miuzarte/SauceNAO-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=SauceNAO-go)](https://github.com/Miuzarte/SauceNAO-go)
+[![Miuzarte/Ascii2d-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=Ascii2d-go)](https://github.com/Miuzarte/Ascii2d-go)
+[![Miuzarte/SoutuBot-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=SoutuBot-go)](https://github.com/Miuzarte/SoutuBot-go)
+[![Miuzarte/FlareSolverr-go](https://github-readme-stats.vercel.app/api/pin/?description_lines_count=2&username=Miuzarte&repo=FlareSolverr-go)](https://github.com/Miuzarte/FlareSolverr-go)
 
 ### ~~待填的巨坑：~~
 - [x] B站api封装库 [[Miuzarte/biligo]](https://github.com/Miuzarte/biligo) [[Miuzarte/biligoDemo]](https://github.com/Miuzarte/biligoDemo)
