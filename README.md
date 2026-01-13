@@ -16,6 +16,9 @@ GitHub Gist: [Miuzarte's gists](https://gist.github.com/Miuzarte)
 [![Miuzarte/SoutuBot-go](https://github-readme-stats.miuzarte.top/api/pin/?description_lines_count=2&username=Miuzarte&repo=SoutuBot-go)](https://github.com/Miuzarte/SoutuBot-go)
 [![Miuzarte/FlareSolverr-go](https://github-readme-stats.miuzarte.top/api/pin/?description_lines_count=2&username=Miuzarte&repo=FlareSolverr-go)](https://github.com/Miuzarte/FlareSolverr-go)
 
+### Miscellaneous:
+[![Miuzarte/GoAstCodeLens](https://github-readme-stats.miuzarte.top/api/pin/?description_lines_count=2&username=Miuzarte&repo=GoAstCodeLens)](https://github.com/Miuzarte/GoAstCodeLens)
+
 ### ~~待填的巨坑：~~
 - [x] B站api封装库 [[Miuzarte/biligo]](https://github.com/Miuzarte/biligo) [[Miuzarte/biligoDemo]](https://github.com/Miuzarte/biligoDemo)
 - [x] 为 [[EHentai-go]](https://github.com/Miuzarte/EHentai-go) 添加命令行工具
