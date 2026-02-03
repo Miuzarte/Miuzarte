@@ -28,8 +28,8 @@ GitHub Gist: [Miuzarte's gists](https://gist.github.com/Miuzarte)
 <a href="https://github.com/Miuzarte">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake.svg">
-    <img alt="github contribution grid snake animation" src="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake-light.svg">
+    <img alt="github contribution grid snake animation" src="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake-light.svg">
   </picture>
 </a>
 
