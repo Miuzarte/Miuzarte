@@ -28,12 +28,13 @@ jobs:
           curl -o $OUTPUT_PATH/topLangs-dark.svg "$LANGS_DARK_URL"
       - name: Push
         run: |
+          mv $OUTPUT_PATH /tmp/$OUTPUT_PATH
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin $PUSH_BRANCH:$PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
-          git checkout $PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
+          git checkout $PUSH_BRANCH || true
           rm -rf *
-          cp -r $OUTPUT_PATH/* .
+          cp -r /tmp/$OUTPUT_PATH/* .
           git add .
           git commit -m "Update" || echo "No changes to commit"
           git push origin $PUSH_BRANCH
@@ -58,12 +59,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push
         run: |
+          mv $OUTPUT_PATH /tmp/$OUTPUT_PATH
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin $PUSH_BRANCH:$PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
-          git checkout $PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
+          git checkout $PUSH_BRANCH || true
           rm -rf *
-          cp -r $OUTPUT_PATH/* .
+          cp -r /tmp/$OUTPUT_PATH/* .
           git add .
           git commit -m "Update" || echo "No changes to commit"
           git push origin $PUSH_BRANCH
