@@ -53,8 +53,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            ${{ env.OUTPUT_PATH }}/snake-light.svg?color_snake=#5184F0
-            ${{ env.OUTPUT_PATH }}/snake-dark.svg?color_snake=#E5289E
+            ${{ env.OUTPUT_PATH }}/snake-light.svg?color_snake=#5184F0&color_dots=#eff2f5,#aceebb,#4ac26b,#2da44e,#116329
+            ${{ env.OUTPUT_PATH }}/snake-dark.svg?color_snake=#E5289E&color_dots=#151b23,#033a16,#196c2e,#2ea043,#56d364
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push
