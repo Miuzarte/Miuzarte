@@ -1,0 +1,69 @@
+name: Readme Resource
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 8,20 * * *
+
+jobs:
+  github-readme-stats:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      OUTPUT_PATH: "grs"
+      PUSH_BRANCH: "resource/grs"
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch
+        env:
+          STATS_LIGHT_URL: "https://github-readme-stats.miuzarte.top/api?username=Miuzarte&custom_title=Miuzarte's%20GitHub%20Stats&show=discussions_started,discussions_answered,prs_merged,prs_merged_percentage&include_all_commits=true&show_icons=true&rank_icon=github"
+          STATS_DARK_URL: "https://github-readme-stats.miuzarte.top/api?username=Miuzarte&theme=synthwave&border_color=E5289E&custom_title=Miuzarte's%20GitHub%20Stats&show=discussions_started,discussions_answered,prs_merged,prs_merged_percentage&include_all_commits=true&show_icons=true&rank_icon=github&ring_color=FF7EDB"
+          LANGS_LIGHT_URL: "https://github-readme-stats.miuzarte.top/api/top-langs/?username=Miuzarte&layout=compact&langs_count=8&size_weight=0.2&count_weight=0.8"
+          LANGS_DARK_URL: "https://github-readme-stats.miuzarte.top/api/top-langs/?username=Miuzarte&theme=synthwave&border_color=E5289E&layout=compact&langs_count=8&size_weight=0.2&count_weight=0.8"
+        run: |
+          mkdir -p $OUTPUT_PATH
+          curl -o $OUTPUT_PATH/stats-light.svg "$STATS_LIGHT_URL"
+          curl -o $OUTPUT_PATH/stats-dark.svg "$STATS_DARK_URL"
+          curl -o $OUTPUT_PATH/topLangs-light.svg "$LANGS_LIGHT_URL"
+          curl -o $OUTPUT_PATH/topLangs-dark.svg "$LANGS_DARK_URL"
+      - name: Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin $PUSH_BRANCH:$PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
+          git checkout $PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
+          rm -rf *
+          cp -r $OUTPUT_PATH/* .
+          git add .
+          git commit -m "Update" || echo "No changes to commit"
+          git push origin $PUSH_BRANCH
+
+  contribution-snake:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      OUTPUT_PATH: "snk"
+      PUSH_BRANCH: "resource/snk"
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            ${{ env.OUTPUT_PATH }}/snake.svg
+            ${{ env.OUTPUT_PATH }}/snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin $PUSH_BRANCH:$PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
+          git checkout $PUSH_BRANCH || git checkout --orphan $PUSH_BRANCH
+          rm -rf *
+          cp -r $OUTPUT_PATH/* .
+          git add .
+          git commit -m "Update" || echo "No changes to commit"
+          git push origin $PUSH_BRANCH

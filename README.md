@@ -10,85 +10,103 @@ A normal gopher
 
 GitHub Gist: [Miuzarte's gists](https://gist.github.com/Miuzarte)
 
-<a href="https://github.com/Miuzarte#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api?username=Miuzarte&custom_title=Miuzarte's%20GitHub%20Stats&show=discussions_started,discussions_answered,prs_merged,prs_merged_percentage&include_all_commits=true&show_icons=true&rank_icon=github#gh-light-mode-only"/>
+<a href="https://github.com/Miuzarte">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/stats-light.svg">
+    <img alt="Miuzarte's GitHub Stats" src="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/stats-light.svg">
+  </picture>
 </a>
-<a href="https://github.com/Miuzarte#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api?username=Miuzarte&theme=synthwave&border_color=E5289E&custom_title=Miuzarte's%20GitHub%20Stats&show=discussions_started,discussions_answered,prs_merged,prs_merged_percentage&include_all_commits=true&show_icons=true&rank_icon=github&ring_color=FF7EDB#gh-dark-mode-only"/>
+<a href="https://go.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/topLangs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/topLangs-light.svg">
+    <img alt="Most Used Languages" src="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/topLangs-light.svg">
+  </picture>
 </a>
-<a href="https://go.dev#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/top-langs/?username=Miuzarte&layout=compact&langs_count=8&size_weight=0.2&count_weight=0.8#gh-light-mode-only"/>
-</a>
-<a href="https://go.dev#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/top-langs/?username=Miuzarte&theme=synthwave&border_color=E5289E&layout=compact&langs_count=8&size_weight=0.2&count_weight=0.8#gh-dark-mode-only"/>
+
+<a href="https://github.com/Miuzarte">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake.svg">
+    <img alt="github contribution grid snake animation" src="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake.svg">
+  </picture>
 </a>
 
 ### Recent major projects
 
-<a href="https://github.com/Miuzarte/EHentai-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=EHentai-go#gh-light-mode-only"/>
+<a href="https://github.com/Miuzarte/EHentai-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=EHentai-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=EHentai-go">
+    <img alt="EHentai-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=EHentai-go">
+  </picture>
 </a>
-<a href="https://github.com/Miuzarte/EHentai-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=EHentai-go#gh-dark-mode-only"/>
+<a href="https://github.com/Miuzarte/NHentai-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=NHentai-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=NHentai-go">
+    <img alt="NHentai-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=NHentai-go">
+  </picture>
 </a>
-<a href="https://github.com/Miuzarte/NHentai-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=NHentai-go#gh-light-mode-only"/>
+<a href="https://github.com/Miuzarte/JMComic-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=JMComic-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=JMComic-go">
+    <img alt="JMComic-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=JMComic-go">
+  </picture>
 </a>
-<a href="https://github.com/Miuzarte/NHentai-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=NHentai-go#gh-dark-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/JMComic-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=JMComic-go#gh-light-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/JMComic-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=JMComic-go#gh-dark-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/PicaComic-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=PicaComic-go#gh-light-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/PicaComic-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=PicaComic-go#gh-dark-mode-only"/>
+<a href="https://github.com/Miuzarte/PicaComic-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=PicaComic-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=PicaComic-go">
+    <img alt="PicaComic-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=PicaComic-go">
+  </picture>
 </a>
 
-<a href="https://github.com/Miuzarte/SauceNAO-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=SauceNAO-go#gh-light-mode-only"/>
+<a href="https://github.com/Miuzarte/SauceNAO-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=SauceNAO-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=SauceNAO-go">
+    <img alt="SauceNAO-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=SauceNAO-go">
+  </picture>
 </a>
-<a href="https://github.com/Miuzarte/SauceNAO-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=SauceNAO-go#gh-dark-mode-only"/>
+<a href="https://github.com/Miuzarte/Ascii2d-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=Ascii2d-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=Ascii2d-go">
+    <img alt="Ascii2d-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=Ascii2d-go">
+  </picture>
 </a>
-<a href="https://github.com/Miuzarte/Ascii2d-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=Ascii2d-go#gh-light-mode-only"/>
+<a href="https://github.com/Miuzarte/SoutuBot-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=SoutuBot-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=SoutuBot-go">
+    <img alt="SoutuBot-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=SoutuBot-go">
+  </picture>
 </a>
-<a href="https://github.com/Miuzarte/Ascii2d-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=Ascii2d-go#gh-dark-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/SoutuBot-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=SoutuBot-go#gh-light-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/SoutuBot-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=SoutuBot-go#gh-dark-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/FlareSolverr-go#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=FlareSolverr-go#gh-light-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/FlareSolverr-go#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=FlareSolverr-go#gh-dark-mode-only"/>
+<a href="https://github.com/Miuzarte/FlareSolverr-go">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=FlareSolverr-go">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=FlareSolverr-go">
+    <img alt="FlareSolverr-go" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=FlareSolverr-go">
+  </picture>
 </a>
 
 ### Miscellaneous
 
-<a href="https://github.com/Miuzarte/GoAstCodeLens#gh-light-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=GoAstCodeLens#gh-light-mode-only"/>
-</a>
-<a href="https://github.com/Miuzarte/GoAstCodeLens#gh-dark-mode-only">
-  <img src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=GoAstCodeLens#gh-dark-mode-only"/>
+<a href="https://github.com/Miuzarte/GoAstCodeLens">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&theme=synthwave&border_color=E5289E&description_lines_count=2&repo=GoAstCodeLens">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=GoAstCodeLens">
+    <img alt="GoAstCodeLens" src="https://github-readme-stats.miuzarte.top/api/pin/?username=Miuzarte&description_lines_count=2&repo=GoAstCodeLens">
+  </picture>
 </a>
 
 <details>
 <summary></summary>
 
 >- _支持深色/浅色模式_
->- _我不知道为什么统计信息好像加载不了_
 
 </details>
 
