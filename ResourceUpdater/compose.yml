@@ -1,0 +1,31 @@
+services:
+  resource-updater:
+    build: .
+    container_name: resource-updater
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - GITHUB_USER=Miuzarte
+      # token 不需要任何权限
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      # GitHub Readme Stats
+      # 使用本地服务
+      - STATS_LIGHT_URL=http://github-readme-stats:9000/api?username=Miuzarte&custom_title=Miuzarte's%20GitHub%20Stats&show=discussions_started,discussions_answered,prs_merged,prs_merged_percentage&include_all_commits=true&show_icons=true&rank_icon=github
+      - STATS_DARK_URL=http://github-readme-stats:9000/api?username=Miuzarte&theme=synthwave&border_color=E5289E&custom_title=Miuzarte's%20GitHub%20Stats&show=discussions_started,discussions_answered,prs_merged,prs_merged_percentage&include_all_commits=true&show_icons=true&rank_icon=github&ring_color=FF7EDB
+      - LANGS_LIGHT_URL=http://github-readme-stats:9000/api/top-langs/?username=Miuzarte&layout=compact&langs_count=8&hide=go%20template&size_weight=0.2&count_weight=0.8
+      - LANGS_DARK_URL=http://github-readme-stats:9000/api/top-langs/?username=Miuzarte&theme=synthwave&border_color=E5289E&layout=compact&langs_count=8&hide=go%20template&size_weight=0.2&count_weight=0.8
+      # Contribution Snake 颜色配置
+      - SNAKE_LIGHT_COLOR=#5184F0
+      - SNAKE_LIGHT_DOTS=#eff2f5,#aceebb,#4ac26b,#2da44e,#116329
+      - SNAKE_DARK_COLOR=#E5289E
+      - SNAKE_DARK_DOTS=#151b23,#033a16,#196c2e,#2ea043,#56d364
+    volumes:
+      - ./output:/app/output
+      - ./logs:/var/log
+    networks:
+      - resource-services
+
+networks:
+  resource-services:
+    name: resource-services
+    external: true

@@ -12,24 +12,24 @@ GitHub Gist: [Miuzarte's gists](https://gist.github.com/Miuzarte)
 
 <a href="https://github.com/Miuzarte">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/stats-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/stats-light.svg">
-    <img alt="Miuzarte's GitHub Stats" src="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/stats-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-resource.miuzarte.top/grs/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-resource.miuzarte.top/grs/stats-light.svg">
+    <img alt="Miuzarte's GitHub Stats" src="https://github-resource.miuzarte.top/grs/stats-light.svg">
   </picture>
 </a>
 <a href="https://go.dev">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/topLangs-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/topLangs-light.svg">
-    <img alt="Most Used Languages" src="https://github.com/Miuzarte/Miuzarte/raw/resource/grs/topLangs-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-resource.miuzarte.top/grs/topLangs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-resource.miuzarte.top/grs/topLangs-light.svg">
+    <img alt="Most Used Languages" src="https://github-resource.miuzarte.top/grs/topLangs-light.svg">
   </picture>
 </a>
 
 <a href="https://github.com/Miuzarte">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake-light.svg">
-    <img alt="github contribution grid snake animation" src="https://github.com/Miuzarte/Miuzarte/raw/resource/snk/snake-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-resource.miuzarte.top/snk/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-resource.miuzarte.top/snk/snake-light.svg">
+    <img alt="github contribution grid snake animation" src="https://github-resource.miuzarte.top/snk/snake-light.svg">
   </picture>
 </a>
 

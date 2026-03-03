@@ -1,8 +1,8 @@
 name: Readme Resource
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 8,20 * * *
+  # schedule:
+  #   - cron: 0 8,20 * * *
 
 jobs:
   github-readme-stats:
