@@ -36,7 +36,7 @@ RUN chmod +x /app/scripts/*.sh
 RUN mkdir -p /app/output/grs /app/output/snk
 
 # 每小时执行一次
-RUN echo "0 * * * * /app/scripts/run-all.sh >> /var/log/cron.log 2>&1" > /etc/crontab
+RUN echo "0 * * * * root /app/scripts/run-all.sh >> /var/log/cron.log 2>&1" > /etc/crontab
 
 COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
