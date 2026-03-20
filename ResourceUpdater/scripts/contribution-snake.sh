@@ -6,7 +6,7 @@ echo "[$(date)] Starting Contribution Snake update..."
 OUTPUT_PATH="/app/output/snk"
 mkdir -p "$OUTPUT_PATH"
 
-echo "Generating contribution snake SVGs using local snk..."
+echo "Generating contribution snake SVGs using bun..."
 
 export SNAKE_LIGHT_COLOR="${SNAKE_LIGHT_COLOR:-#5184F0}"
 export SNAKE_LIGHT_DOTS="${SNAKE_LIGHT_DOTS:-#eff2f5,#aceebb,#4ac26b,#2da44e,#116329}"

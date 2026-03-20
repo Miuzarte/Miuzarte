@@ -20,6 +20,7 @@ services:
       - SNAKE_DARK_COLOR=#E5289E
       - SNAKE_DARK_DOTS=#151b23,#033a16,#196c2e,#2ea043,#56d364
     volumes:
+      # - ./scripts:/app/scripts
       - ./output:/app/output
       - ./logs:/var/log
     networks:
