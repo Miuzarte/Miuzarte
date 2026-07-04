@@ -4,7 +4,7 @@ const path = require('path');
 (async () => {
   try {
     // 直接导入源代码模块
-    const { generateContributionSnake } = await import('file:///snk/packages/action/generateContributionSnake.ts');
+    const { generateSnakeAnimation } = await import('file:///snk/packages/generate-snake-animation/generateSnakeAnimation.ts');
 
     const userName = process.env.GITHUB_USER || 'Miuzarte';
     const outputPath = process.env.OUTPUT_PATH || '/app/output/snk';
@@ -54,9 +54,10 @@ const path = require('path');
 
     console.log(`Generating snake for user: ${userName}`);
 
-    const results = await generateContributionSnake(userName, outputs, {
-      githubToken: process.env.GITHUB_TOKEN
-    });
+    const results = await generateSnakeAnimation(
+      { platform: "github", username: userName, githubToken: process.env.GITHUB_TOKEN },
+      outputs
+    );
 
     console.log(`Results type: ${typeof results}, length: ${results?.length}`);
 
